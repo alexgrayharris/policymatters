@@ -1,0 +1,67 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #DE7F27;
+}
+
+/* Header content */
+.banner {
+  align-items: center;
+  display: flex;
+  margin: 5%;
+  height: 200px;
+  justify-content: space-around;
+  width: 75%;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 50px;
+}
+
+#funding-banner {
+  background: url('../photos/funding-banner.png') no-repeat center bottom;
+  background-size: cover;
+}
+
+/* Main content */
+/* Menu */
+#menu {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin: 2% 5%;
+  text-align: center;
+  width: 75%;
+}
+
+#menu h2 {
+  width: 20%;
+  font-size: 15px;
+}
+
+#menu h2:hover {
+  color:#DE7F27;
+  cursor: pointer;
+}
+
+#main-content {
+  margin: 0 5% 5% 5%;
+  position: relative;
+  width: 70%;
+}
+
+#main-content h2 {
+  color: black;
+}

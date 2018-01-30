@@ -1,0 +1,158 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Header content */
+#description {
+  margin-left: 5%;
+  width: 65%;
+}
+
+/* Body below header and description */
+#content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+/* LIst if issues with buttons */
+#topic-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+}
+#topic-grid {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 5%;
+  width: 65%;
+}
+/* Button styles */
+.topic-button-wide {
+  align-items: center;
+  background: linear-gradient(to top left, rgba(29,69,83,.7), rgba(29,69,83,1));
+  color: white;
+  display: flex;
+  height: 10vh;
+  margin: 2% 5%;
+  padding: 2%;
+  text-align: left;
+  width: 70%;
+  min-width: 300px;
+}
+.wide-button-icon {
+  height: 90%;
+}
+
+.topic-button-wide h1 {
+  margin-left: 2vw;
+}
+/* For grid - button style */
+.topic-button {
+  align-items: center;
+  color: white;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  margin: 15px;
+  text-align: center;
+  transition: all .2s ease-in-out;
+  width: 200px;
+}
+
+#funding {
+  background: url("../photos/funding-square-blue.png") no-repeat center center;
+  background-size: cover;
+}
+#funding:hover {
+   background: linear-gradient(to bottom left, rgba(255,255,255,.7), rgba(255,255,255,.7)), url("../photos/funding-square-blue.png") no-repeat center center;
+   background-size: cover;
+}
+#coverage {
+  background: url("../photos/coverage-square-blue.png") no-repeat center center;
+    background-size: cover;
+}
+#coverage:hover {
+   background: linear-gradient(to bottom left, rgba(255,255,255,.7), rgba(255,255,255,.7)), url("../photos/coverage-square-blue.png") no-repeat center center;
+   background-size: cover;
+}
+#workforce {
+  background: url("../photos/wf-square-blue.png") no-repeat center center;
+    background-size: cover;
+}
+#workforce:hover {
+   background: linear-gradient(to bottom left, rgba(255,255,255,.7), rgba(255,255,255,.7)), url("../photos/wf-square-blue.png") no-repeat center center;
+   background-size: cover;
+}
+#drugs {
+  background: url("../photos/drugs-square-blue.png") no-repeat center center;
+    background-size: cover;
+}
+#drugs:hover {
+   background: linear-gradient(to bottom left, rgba(255,255,255,.7), rgba(255,255,255,.7)), url("../photos/drugs-square-blue.png") no-repeat center center;
+   background-size: cover;
+}
+#telehealth {
+  background: url("../photos/tele-square-blue.png") no-repeat center center;
+    background-size: cover;
+}
+#telehealth:hover {
+   background: linear-gradient(to bottom left, rgba(255,255,255,.7), rgba(255,255,255,.7)), url("../photos/tele-square-blue.png") no-repeat center center;
+   background-size: cover;
+}
+#behavioral {
+  background: url("../photos/beh-square-blue.png") no-repeat center center;
+  background-size: cover;
+}
+#behavioral:hover {
+   background: linear-gradient(to bottom left, rgba(255,255,255,.7), rgba(255,255,255,.7)), url("../photos/beh-square-blue.png") no-repeat center center;
+   background-size: cover;
+}
+#other {
+  background: url("../photos/other-blue.png") no-repeat center center;
+    background-size: cover;
+}
+#other:hover {
+   background: linear-gradient(to bottom left, rgba(255,255,255,.7), rgba(255,255,255,.7)), url("../photos/other-blue.png") no-repeat center center;
+   background-size: cover;
+}
+#advocacy {
+  background: url("../photos/advo-blue.png") no-repeat center center;
+    background-size: cover;
+}
+#advocacy:hover {
+   background: linear-gradient(to bottom left, rgba(255,255,255,.7), rgba(255,255,255,.7)), url("../photos/advo-blue.png") no-repeat center center;
+   background-size: cover;
+}
+
+/* Styling for drop-down  */
+.accordion {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+}
+.active, .accordion:hover {
+  background-color:#1D4553;
+}
+.panel {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+  width: 60%;
+}
+
+/* Sidebar with new issues and action button */
+#sidebar {
+  padding: 0 5% 2% 0;
+  width: 30%;
+}
+li {
+  margin-left: 8%;
+}
